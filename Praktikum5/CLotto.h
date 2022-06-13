@@ -13,6 +13,7 @@ public:
 
 	//Getter and Setter
 	void set_tippzettel(std::vector<int> tipp);
+	std::vector<int> get_tippzettel();
 
 	std::vector<int> draw();
 	int compare_draw(std::vector<int> tipp);

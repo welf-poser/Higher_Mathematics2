@@ -20,7 +20,7 @@ void CZufall::test(int a, int b, int N) {
 	for(int i = 0; i < N; i++){
 		val = wert(a, b);
 		int position = b % val;
-		number.at(val -a) = number.at(val -a)+1;
+		number.at(val -a)++;// = number.at(val -a)+1;
 	}
 
 	int i = 0;
