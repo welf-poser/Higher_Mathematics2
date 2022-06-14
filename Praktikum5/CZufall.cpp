@@ -11,7 +11,6 @@ int CZufall::wert(int min, int max) {
 
 void CZufall::initialisiere(int s) {
 	srand(s);
-	//Why not srand((unsigned)time(0)); ??
 }
 
 void CZufall::test(int a, int b, int N) {
@@ -20,7 +19,7 @@ void CZufall::test(int a, int b, int N) {
 	for(int i = 0; i < N; i++){
 		val = wert(a, b);
 		int position = b % val;
-		number.at(val -a)++;// = number.at(val -a)+1;
+		number.at(val -a)++;
 	}
 
 	int i = 0;
@@ -38,7 +37,7 @@ void CZufall::test_falsch(int a, int b, int N) {
 		initialisiere((unsigned)time(0));
 		val = wert(a, b);
 		int position = b % val;
-		number.at(val - a) = number.at(val - a) + 1;
+		number.at(val - a)++;
 	}
 
 	int i = 0;

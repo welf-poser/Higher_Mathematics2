@@ -41,7 +41,7 @@ std::vector<int> CLotto::draw() {
 
 			if (draw[j] == val) {
 				val = rand_draw.wert(1, n);
-				j--;
+				j= -1;
 			}
 		}
 		draw[i] = val;
@@ -84,10 +84,5 @@ void CLotto::monte_carlo_sim(int r, int N, bool typ) {
 		std::cout << "Modus: Unterschiedlicher Tippzettel" << std::endl;
 	}
 
-	//Case division by zero
-	double percent = 0;
-	if (hit != 0)
-		percent = (double(hit)/double(N)) * 100.0;
-
-	std::cout << "Die Wahrscheinlichkeit " << r << " Treffer mit " << k << " Wahlmoeglichkeiten aus " << n << " Zahlen zu erreichen liegt bei " << percent << "%" << std::endl;
+	std::cout << "Die Wahrscheinlichkeit " << r << " Treffer mit " << k << " Wahlmoeglichkeiten aus " << n << " Zahlen zu erreichen liegt bei " << (double(hit) / double(N)) * 100.0 << "%" << std::endl;
 }
