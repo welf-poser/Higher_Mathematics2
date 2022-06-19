@@ -18,5 +18,7 @@ public:
 	std::vector<int> draw();
 	int compare_draw(std::vector<int> tipp);
 	void monte_carlo_sim(int r, int N, bool typ);
-
+	std::vector<bool> draw_optimized();
+	int compare_draw_optimized(std::vector<int> tipp);
+	void monte_carlo_sim_optimized(int r, int N, bool typ);
 };
