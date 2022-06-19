@@ -56,4 +56,9 @@
       <Filter>Quelldateien</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Praktikum4.pdf">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
 </Project>

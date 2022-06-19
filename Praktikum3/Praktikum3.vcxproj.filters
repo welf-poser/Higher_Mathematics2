@@ -33,4 +33,15 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Praktikum1.pdf">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="Praktikum2.pdf">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="Praktikum3.pdf">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
 </Project>

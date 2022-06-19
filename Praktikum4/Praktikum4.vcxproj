@@ -156,6 +156,9 @@
     <Text Include="e0_1.txt" />
     <Text Include="e1_0.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Praktikum4.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

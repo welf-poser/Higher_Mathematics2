@@ -147,6 +147,11 @@
     <ClInclude Include="CMyVector.h" />
     <ClInclude Include="C_DGLSolver.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Praktikum1.pdf" />
+    <None Include="Praktikum2.pdf" />
+    <None Include="Praktikum3.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

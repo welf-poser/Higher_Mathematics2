@@ -147,6 +147,9 @@
     <ClInclude Include="CLotto.h" />
     <ClInclude Include="CZufall.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Praktikum5.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
